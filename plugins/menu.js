@@ -417,4 +417,4 @@ async function checkStatus() {
         const resultText = Object.entries(results).map(([k, v]) => `${v} ${k}`).join(' | ')
         global.db.data.stats.statusCache = { checkedAt: Date.now(), result: resultText }
         return resultText
-			}
+									}
